@@ -1,0 +1,19 @@
+# Allow all crawlers
+User-agent: *
+Allow: /
+
+# Block Next.js internals
+Disallow: /_next/
+Disallow: /api/
+
+# Prioritise key crawlers
+User-agent: Googlebot
+Allow: /
+Crawl-delay: 2
+
+User-agent: Bingbot
+Allow: /
+Crawl-delay: 5
+
+# Sitemap
+Sitemap: https://ayush-kumar.in/sitemap.xml
