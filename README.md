@@ -4,9 +4,9 @@
 
 Welcome to my personal portfolio! I am a 3rd-year **B.Sc. Forensic Science (Hons.)** student at Parul University, blending scientific rigor with raw cyber-investigative skills. My primary focus lies in digital forensics, OSINT, and cybercrime investigation.
 
-To reflect my passion, I built this portfolio with a strong **"cyber-investigator" aesthetic** — complete with a cinematic BIOS boot sequence, procedural audio, glassmorphism, and holographic 3D interactions.
+To reflect my passion, I built this portfolio with a strong **"cyber-investigator" aesthetic** — complete with a cinematic BIOS boot sequence, procedural audio, glassmorphism, glowing ambient UI elements, and holographic 3D interactions.
 
-🌐 **[Live Site on Vercel](https://ayush-portfolio.vercel.app/)**
+🌐 **[Live Site](https://ayush-kumar.in/)**
 
 ---
 
@@ -16,6 +16,7 @@ This isn't your average portfolio. I've designed it to feel like an interactive 
 - **Cinematic Boot Sequence:** A multi-phase forensic boot animation (BIOS POST, Kernel Init, Authentication) with procedurally generated Web Audio API sound effects (terminal clicks, hums, sweep tones).
 - **Holographic TryHackMe Card:** A custom 3D element mapping mouse coordinates to synthesize a parallax tilt effect, capped off with a cyan holographic glare.
 - **Limelight Navigation:** An interactive, icon-guided header tracking exact module positioning with smooth sliding spotlights.
+- **Categorized Credentials Gallery:** An elegant, neon-glowing digital showcase divided into Internships, Achievements, and Awards, featuring fullscreen image viewing capabilities.
 - **Glassmorphism UI:** Frosted glass panels, CRT scanlines, terminal text glitches, and ambient glowing borders.
 - **Immersive Sections:** From the terminal-style typing hero to interactive, floating project cards.
 
@@ -25,7 +26,7 @@ This isn't your average portfolio. I've designed it to feel like an interactive 
 
 | Technology | Role |
 | :--- | :--- |
-| **Next.js 15 (App Router)** | Core framework providing lighting fast React Server Components. |
+| **Next.js 15 (App Router)** | Core framework providing lightning fast React Server Components. |
 | **TypeScript** | Ensuring strict, reliable type-safety across all architectures. |
 | **Tailwind CSS 3** | Quick, adaptive, and highly flexible utility styling. |
 | **Framer Motion 11** | Powering the complex section reveals and element floating animations. |
@@ -42,7 +43,7 @@ app/
  ├── globals.css        # The "Specter DFIR" design system, variables, and CRT scanlines
  └── sitemap.ts         # Automated SEO indexing route
 components/
- ├── sections/          # Hero, About, Skills, CyberProfile, Projects, Contact, Footer
+ ├── sections/          # Hero, About, Skills, CyberProfile, Certificates, Projects, Contact, Footer
  ├── ui/
  │   ├── BootAnimation.tsx   # Procedural Audio & Cinematic Sequence
  │   ├── limelight-nav.tsx   # Sliding Highlight Toolbar
@@ -50,6 +51,7 @@ components/
  │   └── social-icons.tsx    # Interactive Connect Links
 public/
  ├── ayush_profile.jpg       # Blended agent photo
+ ├── certificates/           # Visual assets for awards and internships
  └── hero_bg.png             # The fingerprint terminal backing
 ```
 
@@ -62,7 +64,7 @@ Want to boot up the terminal on your own machine?
 ```bash
 # 1. Clone & Enter Directory
 git clone https://github.com/Ayush-Forensics/my-portfolio.git
-cd portfolio
+cd my-portfolio
 
 # 2. Install Packages
 npm install
